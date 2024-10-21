@@ -1,0 +1,204 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+#button1{
+    color: #2F3645;
+    border-radius: 30px;
+    font-weight: 400;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+#button1:hover {
+    color: #FFFFFF; /* Cambia el color del texto al pasar el ratón */
+    background-color: #698474; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.sob-bg{
+    background-color: #f0d2b6;
+}
+
+header{
+    background-color: #2F3645;
+}
+
+header span{
+    color: #FCF8F3;
+}
+
+.nav-item a{
+    color: #FCF8F3;
+}
+
+/*Link visitado*/
+.nav-item a:visited{
+    color:#E6B9A6
+}
+
+.nav-item a:hover{
+    color: #FFD3B6;
+}
+
+#nav-button{
+    background-color: #E6B9A6;
+}
+
+.icon-square .bi{
+    background-color: #DCA47C;
+    color: black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 4px;
+}
+
+#habilidades h2{
+    color: #2F3645;
+}
+
+.txt p{
+    color: #52514c;
+}
+
+.hab-bg{
+    background-color: #ceccc9;
+}
+
+#proyectos h2{
+    color: #ffffff;
+}
+
+.pro-bg{
+    background-color: #2F3645;
+}
+
+.img-proyecto1{
+    background-image: url('/assets/jurislex.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.img-proyecto1::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+    pointer-events: none; 
+}
+
+.img-proyecto1 .d-flex.flex-column{
+    position: relative;
+    z-index: 2;  
+}
+
+#titulo{
+    color: #FFD3B6;
+}
+
+.img-proyecto2{
+    background-image: url('/assets/simulacion.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.img-proyecto2::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+    pointer-events: none; 
+}
+
+.img-proyecto2 .d-flex.flex-column{
+    position: relative;
+    z-index: 2;  
+}
+
+/*proyecto 3*/
+.img-proyecto3{
+    background-image: url('/assets/spotify-fake.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.img-proyecto3::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+    pointer-events: none; 
+}
+
+.img-proyecto3 .d-flex.flex-column{
+    position: relative;
+    z-index: 2;  
+}
+.container h2{
+    color: #2F3645;
+}
+
+/* Cambiar el color de las flechas de navegación del carrusel */
+.custom-arrow .carousel-control-prev-icon,
+.custom-arrow .carousel-control-next-icon {
+    background-color: #2F3645; /* Cambia este color al que prefieras */
+    border-radius: 50%; /* Opcional: Para hacer las flechas circulares */
+    width: 50px; /* Opcional: Ajusta el tamaño de la flecha */
+    height: 50px; /* Opcional: Ajusta el tamaño de la flecha */
+}
+
+.custom-arrow:hover .carousel-control-prev-icon,
+.custom-arrow:hover .carousel-control-next-icon {
+    background-color: #A67F53; /* Color de las flechas al pasar el cursor */
+}
+
+
+#contacto{
+    color: #000000;
+    border-radius: 30px;
+    font-weight: 400;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+#contacto{
+    color: #2F3645; /* Cambia el color del texto al pasar el ratón */
+  
+}
+
+.container1 {
+    background-color: #f0d2b6;
+  }
+
+footer{
+    background-color: #2F3645;
+}
+
+footer .icon-footer i{
+    color: #EEEDEB;
+}
+
+footer p{
+    color: #EEEDEB;
+}
+
+#app{
+    color:#EEEDEB;
+}
+
+
