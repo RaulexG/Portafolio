@@ -17,6 +17,5 @@ El propósito de esta página web es presentar mi portafolio de proyectos como d
 ## Secciones del Proyecto
 
 - **Sobre mí**
-- **Habilidades**
-- **Testimonios**
-- **Contacto**
+- **Proyectos**
+
