@@ -75,7 +75,7 @@ header span{
 }
 
 .img-proyecto1{
-    background-image: url('/assets/jurislex.png');
+    background-image: url('./assets/jurislex.png');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -103,7 +103,7 @@ header span{
 }
 
 .img-proyecto2{
-    background-image: url('/assets/simulacion.jpeg');
+    background-image: url('./assets/simulacion.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -128,7 +128,7 @@ header span{
 
 /*proyecto 3*/
 .img-proyecto3{
-    background-image: url('/assets/spotify-fake.png');
+    background-image: url('./assets/spotify-fake.png');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
