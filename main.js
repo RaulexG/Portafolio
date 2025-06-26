@@ -6,7 +6,7 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('Ingeniera en sistemas | Desarrollador  Front-end Jr')
+typewriter.typeString('Ingeniero en sistemas | Desarrollador  Front-end Jr')
     .pauseFor(2500)
     .deleteAll()
     .typeString('¡Si lo puedes imaginar, lo puedes programar!')
